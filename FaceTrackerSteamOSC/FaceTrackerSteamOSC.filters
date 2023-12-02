@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="hello_xr">
+      <UniqueIdentifier>{1b9d200c-4a0a-4b3d-a8fc-54b271dcc4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osc">
+      <UniqueIdentifier>{bde4cd89-207f-48bf-a4a0-88e6ddcee8ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\oscpack_1_1_0\osc\OscTypes.cpp">
+      <Filter>osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\oscpack_1_1_0\osc\OscPrintReceivedElements.cpp">
+      <Filter>osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\oscpack_1_1_0\osc\OscReceivedElements.cpp">
+      <Filter>osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\oscpack_1_1_0\osc\OscOutboundPacketStream.cpp">
+      <Filter>osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\hello_xr\d3d_common.cpp">
+      <Filter>hello_xr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\hello_xr\graphicsplugin_d3d11.cpp">
+      <Filter>hello_xr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\hello_xr\graphicsplugin_factory.cpp">
+      <Filter>hello_xr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\hello_xr\logger.cpp">
+      <Filter>hello_xr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\hello_xr\pch.cpp">
+      <Filter>hello_xr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\hello_xr\platformplugin_factory.cpp">
+      <Filter>hello_xr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\hello_xr\platformplugin_win32.cpp">
+      <Filter>hello_xr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\oscpack_1_1_0\ip\win32\UdpSocket.cpp">
+      <Filter>osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\oscpack_1_1_0\ip\win32\NetworkingUtils.cpp">
+      <Filter>osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\oscpack_1_1_0\ip\IpEndpointName.cpp">
+      <Filter>osc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FaceTrackerSteamOSC.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
