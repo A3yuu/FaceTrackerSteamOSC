@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceTrackerSteamOSC", "FaceTrackerSteamOSC\FaceTrackerSteamOSC.vcxproj", "{B888FF32-C1F2-4050-B6D9-5C2BEE28AED5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceTrackerSteamOSCbit", "FaceTrackerSteamOSCbit\FaceTrackerSteamOSCbit.vcxproj", "{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceTrackerSteamOSCSplit", "FaceTrackerSteamOSCSplit\FaceTrackerSteamOSCSplit.vcxproj", "{3FDF3C9C-DE94-4C3A-BA70-AB968C971560}"
 EndProject
 Global
@@ -23,6 +25,14 @@ Global
 		{B888FF32-C1F2-4050-B6D9-5C2BEE28AED5}.Release|x64.Build.0 = Release|x64
 		{B888FF32-C1F2-4050-B6D9-5C2BEE28AED5}.Release|x86.ActiveCfg = Release|Win32
 		{B888FF32-C1F2-4050-B6D9-5C2BEE28AED5}.Release|x86.Build.0 = Release|Win32
+		{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}.Debug|x64.ActiveCfg = Debug|x64
+		{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}.Debug|x64.Build.0 = Debug|x64
+		{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}.Debug|x86.ActiveCfg = Debug|Win32
+		{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}.Debug|x86.Build.0 = Debug|Win32
+		{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}.Release|x64.ActiveCfg = Release|x64
+		{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}.Release|x64.Build.0 = Release|x64
+		{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}.Release|x86.ActiveCfg = Release|Win32
+		{5A7BA70C-E015-45AF-9A5E-0FB758AC2511}.Release|x86.Build.0 = Release|Win32
 		{3FDF3C9C-DE94-4C3A-BA70-AB968C971560}.Debug|x64.ActiveCfg = Debug|x64
 		{3FDF3C9C-DE94-4C3A-BA70-AB968C971560}.Debug|x64.Build.0 = Debug|x64
 		{3FDF3C9C-DE94-4C3A-BA70-AB968C971560}.Debug|x86.ActiveCfg = Debug|Win32
